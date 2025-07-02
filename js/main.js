@@ -23,7 +23,7 @@ const hostingData = {
     desc:  "Crystal Cloud offers high-performance Minecraft hosting for smooth, reliable gameplay.",
     price: "$1.00",
     bg:    "url('assets/minecraft-bg.png')",
-    link:  "minecraft_hosting.html"
+    link:  "Hosting/minecraft_hosting.html"
   },
   vps: {
     tag:   "VPS Hosting",
@@ -31,7 +31,7 @@ const hostingData = {
     desc:  "Crystal Cloud provides high-performance, quality VPS hosting in multiple global locations.",
     price: "$6.00",
     bg:    "url('assets/vps-bg.jpg')",
-    link:  "vps_hosting.html"
+    link:  "Hosting/vps_hosting.html"
   },
   discord: {
     tag:   "Discord Bot Hosting",
@@ -39,7 +39,7 @@ const hostingData = {
     desc:  "Host powerful Discord bots with 24/7 uptime and zero lag.",
     price: "$0.99",
     bg:    "url('assets/discord-bg.jpg')",
-    link:  "discord_hosting.html"
+    link:  "Hosting/discord_hosting.html"
   },
   web: {
     tag:   "Web Hosting",
@@ -47,7 +47,7 @@ const hostingData = {
     desc:  "Launch fast, secure websites with one-click WordPress installs and 99.99% uptime.",
     price: "$1.49",
     bg:    "url('assets/web-bg.jpg')",
-    link:  "web_hosting.html"
+    link:  "Hosting/web_hosting.html"
   }
 };
 
