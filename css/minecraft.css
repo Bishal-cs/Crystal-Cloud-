@@ -108,3 +108,81 @@
   font-weight: bold;
   color: #10b981;
 }
+/* Minecraft Hosting Plans Section */
+
+.minecraft-theme {
+  background: radial-gradient(circle at top, #0a0f1c 0%, #070e1f 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.minecraft-theme .plans-header h2 {
+  font-size: 2rem;
+  color: #00d0ff;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px #00d0ff;
+}
+
+.minecraft-theme .plans-header p {
+  color: #cbd5e1;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.minecraft-theme .plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.minecraft-theme .plan-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: left;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 12px rgba(0, 208, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.minecraft-theme .plan-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px #00d0ff, 0 0 30px #ff4fd8;
+}
+
+.minecraft-theme .plan-card h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 5px #ff4fd8;
+}
+
+.minecraft-theme .plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.minecraft-theme .plan-card ul li {
+  margin-bottom: 0.4rem;
+}
+
+.minecraft-theme .plan-card .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #10b981;
+  text-shadow: 0 0 5px #10b981;
+}
+
+.minecraft-theme .footer-note {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #a78bfa;
+  text-shadow: 0 0 8px #a78bfa;
+}
