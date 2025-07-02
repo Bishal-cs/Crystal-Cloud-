@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crystal Cloud</title>
+  <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <div class="top-banner">
+    🌞 Summer Sale: 10% OFF all Minecraft hosting plans! <a href="#">Shop Now</a>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Crystal Cloud">
+      <span class="logo-text">Crystal<span class="highlight">Cloud</span></span>
+    </div>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="./">Home</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle">Game Hosting ▾</button>
+        <div class="dropdown-content">
+          <a href="GameHosting/minecraft_hosting.html"><i class="fas fa-gamepad"></i> Minecraft</a>
+          <a href="#"><i class="fas fa-gamepad"></i> ARK</a>
+          <a href="#"><i class="fas fa-gamepad"></i> FiveM</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-toggle">Other Hosting ▾</button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fas fa-server"></i> VPS Hosting</a>
+          <a href="#"><i class="fas fa-globe"></i> Web Hosting</a>
+          <a href="#"><i class="fas fa-robot"></i> Bot Hosting</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-toggle">Important ▾</button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fas fa-shield-alt"></i> Our Commitment</a>
+          <a href="#"><i class="fas fa-briefcase"></i> Career</a>
+          <a href="#"><i class="fas fa-users"></i> About Us</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-toggle">Legal ▾</button>
+        <div class="dropdown-content">
+          <a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a>
+          <a href="#"><i class="fas fa-user-shield"></i> Privacy Policy</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="cta-buttons">
+      <a href="#" class="btn btn-primary">Client Area</a>
+    </div>
+
+    <button class="hamburger" id="hamburger">
+      <i class="fas fa-bars" id="hamburger-icon"></i>
+    </button>
+  </header>
+  <section class="hero" id="hero-section">
+    <div class="hero-content">
+      <div class="tag" id="hero-tag">VPS Hosting</div>
+      <h1 id="hero-title">VPS Hosting by <span class="highlight">Crystal.Cloud</span></h1>
+      <p id="hero-desc">Crystal Cloud provides high-performance, quality VPS hosting in multiple global locations.</p>
+      <h3 id="hero-price">Servers start at <span class="highlight price">$6.00</span> per month</h3>
+      <a href="" class="btn btn-purple">Get Started</a>
+
+      <!-- Hosting Switch Buttons BELOW the CTA -->
+      <div class="hosting-switch">
+        <button class="switch-btn" data-type="minecraft" >Minecraft Hosting</button>
+        <button class="switch-btn" data-type="vps">VPS Hosting</button>
+        <button class="switch-btn" data-type="discord">Discord Hosting</button>
+        <button class="switch-btn" data-type="web">Web Hosting</button>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const minecraftButton = document.querySelector('.switch-btn[data-type="minecraft"]');
+      minecraftButton.click();
+    });
+  </script>
+  <section class="features-section">
+    <div class="features-header">
+      <h2>Cutting-Edge Features</h2>
+      <p>Discover unparalleled server management and security for a superior hosting experience.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <i class="fas fa-microchip"></i>
+        <h3>Robust Infrastructure</h3>
+        <p>Top-tier hosting with Intel or AMD processors for unrivaled performance—all at an affordable price.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-globe"></i>
+        <h3>Global Reach</h3>
+        <p>Multiple global locations ensure low-latency connections, effortlessly reaching diverse audiences.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>DDoS Protection</h3>
+        <p>All servers are fortified with powerful DDoS protection, ensuring a resilient and secure hosting environment.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-gamepad"></i>
+        <h3>Easy Game Panel</h3>
+        <p>Simplify game server management with our Pterodactyl-powered panel. One-click plugins & version control.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-star"></i>
+        <h3>Trusted Excellence</h3>
+        <p>Host confidently with our stellar TrustPilot rating—proof of trust and satisfaction from our users.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-clock"></i>
+        <h3>99% Uptime</h3>
+        <p>Reliable hosting with a 99%+ uptime assurance. Your servers stay online, ensuring a seamless experience.</p>
+      </div>
+    </div>
+  </section>
+  <section class="game-hosting-section">
+    <div class="game-hosting-header">
+      <h2>Game Server Hosting</h2>
+      <p>Pick your game and launch instantly with powerful hardware.</p>
+    </div>
+
+    <div class="game-card">
+      <div class="game-image" style="background-image: url('assets/valheim-banner.jpg');"></div>
+      <div class="game-info">
+        <h3>Valheim Hosting</h3>
+        <p>Explore Viking realms with friends using our secure hosting. Slay bosses and conquer the world with ease.</p>
+        <div class="game-price">Starting at <span>$2.00/mo</span></div>
+        <a href="#" id="get-started" class="btn btn-purple">Get Started</a>
+      </div>
+    </div>
+  </section>
+  
+  <script src="js/main.js"></script>
+</body>
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Minecraft Hosting</a></li>
+        <li><a href="#">FiveM</a></li>
+        <li><a href="#">Palworld</a></li>
+        <li><a href="#">VPS Hosting</a></li>
+        <li><a href="#">Web Hosting</a></li>
+        <li><a href="#">Discord Bot Hosting</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Knowledgebase</a></li>
+        <li><a href="#">Server Status</a></li>
+        <li><a href="#">Create Ticket</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Discord</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Announcement</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Partnership</a></li>
+        <li><a href="#">Infrastructure</a></li>
+        <li><a href="#">Our Commitment</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Refund Policy</a></li>
+        <li><a href="#">Usage Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+      Crystal Cloud was founded in India on March 2, 2023, by Ashish Roy to empower online ventures with top-quality servers and unmatched customer support. Ateex Cloud is a subsidiary of AlareX.
+    </p>
+    <p>
+      For 24/7 support or business inquiries, contact us via <a href="#">support@ateex.cloud</a>
+    </p>
+    <div class="social-icons">
+      <a href="https://discord.gg/fhKmhJCfY4"><i class="fab fa-discord"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="copyright">© Copyright 2023–2025 Crystal.Cloud. All Rights Reserved.</p>
+  </div>
+</footer>
+</html>
