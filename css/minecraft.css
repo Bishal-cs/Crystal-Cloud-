@@ -1,0 +1,44 @@
+/* Minecraft Hosting Page Specific Styles */
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 6rem 2rem;
+  text-align: center;
+  transition: background-image 0.5s ease-in-out;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 0;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(17, 24, 39, 0.6);
+  border-radius: 1rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.hero-content h1 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+.hero-content p {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+.hero-content .tag {
+  color: #a78bfa;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
