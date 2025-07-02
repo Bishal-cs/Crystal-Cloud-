@@ -42,3 +42,69 @@
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
+/* Minecraft Hosting Plans Section */
+.plans-section {
+  padding: 4rem 2rem;
+  background-color: #0f172a;
+  text-align: center;
+}
+
+.plans-header h2 {
+  font-size: 2rem;
+  color: #a78bfa;
+  margin-bottom: 0.5rem;
+}
+
+.plans-header p {
+  color: #cbd5e1;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.plan-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: left;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.plan-card h3 {
+  font-size: 1.3rem;
+  color: #f9fafb;
+  margin-bottom: 1rem;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.plan-card ul li {
+  margin-bottom: 0.4rem;
+}
+
+.plan-card .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #10b981;
+}
