@@ -62,16 +62,18 @@ body {
   gap: 1.25rem;
   align-items: center;
   flex-wrap: wrap;
+  margin: 50;
+  padding: 0;
 }
 .nav-links a,
 .dropdown-toggle {
-  color: white;
+  color: #5a9fff;
   text-decoration: none;
   font-size: 0.95rem;
   background: none;
-  border: none;
+  border: none ;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.3s step-end;
 }
 .nav-links a:hover,
 .dropdown-toggle:hover {
@@ -84,12 +86,12 @@ body {
 }
 .dropdown-content {
   position: absolute;
-  top: 100%;
+  top: auto;
   left: 0;
   background-color: #44608b;
-  min-width: 180px;
+  min-width: fit-content;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(34, 34, 34, 0.3);
+  box-shadow: 0 4px 12px rgba(34, 34, 34, 0);
   display: none;
   flex-direction: column;
   z-index: 100;
@@ -102,16 +104,24 @@ body {
   display: flex;
   opacity: 1;
   transform: translateY(0);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(34, 34, 34, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 .dropdown-content a {
   padding: 0.75rem 1rem;
   color: #60a5fa;
   text-decoration: none;
   font-size: 0.9rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block;
+  width: 100%;
 }
 .dropdown-content a:hover {
   background-color: #374151;
   color: #93c5fd;
+  border-radius: 0.5rem;
 }
 
 /* CTA Buttons */
