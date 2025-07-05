@@ -61,9 +61,6 @@ body {
   display: flex;
   gap: 1.25rem;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 50;
-  padding: 0;
 }
 .nav-links a,
 .dropdown-toggle {
@@ -91,14 +88,14 @@ body {
   background-color: #44608b;
   min-width: fit-content;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(34, 34, 34, 0);
+  box-shadow: 0 4px 12px rgba(34, 34, 34, 0.46);
   display: none;
   flex-direction: column;
   z-index: 100;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  background-color: rgba(32, 23, 23, 0.308); /* Add this line */
+  background-color: rgba(6, 1, 25, 0.978); /* Add this line */
 }
 .dropdown:hover .dropdown-content {
   display: flex;
@@ -116,7 +113,7 @@ body {
   font-size: 0.9rem;
   transition: background-color 0.3s ease, color 0.3s ease;
   display: block;
-  width: 100%;
+  width: 100;
 }
 .dropdown-content a:hover {
   background-color: #374151;
